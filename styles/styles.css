@@ -1,5 +1,5 @@
 nav {
-    background-color: darkblue;
+    background-color: steelblue;
     padding: 10px;
 }
 
@@ -16,7 +16,7 @@ h1 {
 img {
     width: 150 px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -47,7 +47,9 @@ aside img {
 main img {
     width: 150;
     height: auto;
-    ...
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 footer {
