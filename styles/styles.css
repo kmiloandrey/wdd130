@@ -1,22 +1,30 @@
+:root {
+
+    --nav-background-color: steelblue;
+    --heading-color: darkblue;
+    --footer-margin-top: 15px;
+    --nav-a-background-color: white;
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--nav-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--nav-a-background-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-color);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--nav-background-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -47,13 +55,13 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--nav-background-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: var(--footer-margin-top);
     border-top: 1px solid #000;
     text-align: center;
 }
