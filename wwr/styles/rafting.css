@@ -18,8 +18,13 @@
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: white;
     color: var(--accent2-color);
+}
+
+header img {
+    width: 10%;
+    height: auto;
 }
 
 body {
@@ -116,4 +121,9 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+footer img {
+    width: 4%;
+    height: auto;
 }
