@@ -198,6 +198,10 @@ footer p {
     padding-left: 100px;
 }
 
+.socialmedia a {
+    text-decoration: none;
+}
+
 .socialmedia {
     display: flex;
     gap: 15px;
