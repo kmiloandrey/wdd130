@@ -1,11 +1,11 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --secondary-color: #f39e59;
+    --secondary-color: rgb(212, 209, 209);
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
-    --accent2-color: #e9c46a;
+    --accent2-color: white;
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: arial, helvetica, sans-serif;
@@ -21,7 +21,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    background-color: white;
+    background-color: var(--accent2-color);
     padding: 15px 120px;
     /* Fixed spacing typo '15 px' */
     color: var(--accent2-color);
@@ -106,7 +106,7 @@ article {
     left: 5%;
     width: 90%;
     padding: 15px;
-    opacity: 0.9;
+    opacity: 0.7;
     background-color: var(--secondary-color);
     border-radius: 8px;
 }
@@ -123,7 +123,7 @@ section h2 {
     padding: 12px;
     text-align: center;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--accent2-color);
     margin-bottom: 20px;
 }
 
@@ -162,9 +162,9 @@ article {
 
 figure {
     margin: 0;
-    background: white;
+    background: var(--accent2-color);
     padding: 10px;
-    border: 1px solid rgb(212, 209, 209);
+    border: 1px solid var(--secondary-color);
     border-radius: 4px;
     text-align: center;
 }
