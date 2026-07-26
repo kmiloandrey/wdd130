@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rafting Friends</title>
+    <meta name="description"
+      content="This is the Contact Us page of the Rafting Friends Website. It contains information about how to contact the company.">
+    <meta name="author" content="Camilo Valdivieso">
+    <link rel=" stylesheet" href="styles/rafting.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rafting logo company" class="logo">
+        <nav class="flex">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h1>Rafting Friends</h1>
+            <p class="address">123 Main River Street</p>
+            <p class="address">Provo, Utah</p>
+            <p class="phone">+1 555 555 5555</p>
+            <p class="email">infor@raftingfriends.com</p>
+
+        </section>
+
+        <section class="contact-questions">
+            <div class="maps">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3259.796037687491!2d-111.57205059680489!3d40.35669986655653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1785079048800!5m2!1sen!2sus"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-item-box1">
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item-box1">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+
+                <div class="form-item-box2">
+                    <span class="purpose">Message Purpose:</span>
+                    <div class="options">
+                        <label><input type="radio" name="purpose" value="general" checked> General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website
+                            Suggestion</label>
+                    </div>
+                </div>
+
+                <div class="form-item-box3">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"
+                      placeholder="Type Here!!"></textarea>
+                </div>
+
+                <div class="form-item-box4">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please Subscribe me to the monthly
+                        newsletter</label>
+
+                </div>
+                <button type="submit" class="submit-button">Get in Touch!</button>
+
+            </form>
+
+        </section>
+
+
+        <section class="employee-page">
+            <h2>Here we are to serve you!</h2>
+            <div class="employee-info">
+                <figure>
+                    <img src="images/finn.jpg" alt="rapids provo">
+                    <figcaption>Employee Profile Finn</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/hielo.jpg" alt="family time">
+                    <figcaption>Employee Profile King</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/jake.jpg" alt="rapids utah">
+                    <figcaption>Employee Profile Jake</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2026 ❖ Rafting Friends ❖ Camilo Valdivieso </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+            <a href="https://youtube.com">
+                <img src="images/youtube.svg" alt="Youtube Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
