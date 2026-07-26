@@ -275,24 +275,44 @@ footer p {
 
 .form-item-box2 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 15px;
 }
 
 .purpose {
-    width: 110px;
+    width: 150px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    min-height: 80px;
 }
 
-.options {
+.radio-options {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
+    flex: 1;
 }
 
-.options label {
+.radio-item {
     display: flex;
     align-items: center;
     gap: 8px;
+
+}
+
+.radio-item label {
+    width: auto !important;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.radio-item input[type="radio"] {
+    margin: 0;
+    cursor: pointer;
 }
 
 .form-item-box3 {
