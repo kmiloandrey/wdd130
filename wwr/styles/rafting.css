@@ -473,10 +473,10 @@ footer p {
     object-fit: contain;
 }
 
-.activity-card h3 {
+.activity-card h2 {
     margin-top: 10px;
     font-size: 1.3rem;
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     font-weight: normal;
 }
 
