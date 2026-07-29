@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Rafting Friends</title>
     <meta name="description"
-      content="This is the About Us page of the Rafting Friends Website. It contains information about the company.">
+      content="This is the Home page of the Rafting Friends Website. It contains a fast view about the company.">
     <meta name="author" content="Camilo Valdivieso">
     <link rel=" stylesheet" href="styles/rafting.css">
 
@@ -28,8 +28,71 @@
     </header>
 
     <main>
+        <section class="home-container">
+            <img class="home-img" src="images/rafting6.jpg" alt="background image">
+            <div class="home-msg">
+                <h1>HAVE AN ADVENTURE</h1>
+                <p>Make Memories with Rafting Friends</p>
+                <a class="home-btn" href="trips.html">Book Now</a>
+            </div>
+        </section>
 
+        <!-- Main Categories Layout using CSS Grid -->
+        <section class="activities-grid">
+            <div class="activity-card">
+                <div class="frame-container">
+                    <img src="images/rivers.jpg" alt="River path">
+                </div>
+                <div class="icon-box">
+                    <img src="images/river_icon.png" alt="River icon">
+                </div>
+                <h3>Rivers</h3>
+            </div>
 
+            <div class="activity-card">
+                <div class="frame-container">
+                    <img src="images/camping.jpeg" alt="Tent set up in the river">
+                </div>
+                <div class="icon-box">
+                    <img src="images/tent_icon.png" alt="Camping tent icon">
+                </div>
+                <h3>Camping</h3>
+            </div>
+
+            <div class="activity-card">
+                <div class="frame-container">
+                    <img src="images/rapids.jpg" alt="Provo river rapids">
+                </div>
+                <div class="icon-box">
+                    <img src="images/rapids_icon.png" alt="Crossed paddles icon">
+                </div>
+                <h3>Rapids</h3>
+            </div>
+        </section>
+
+        <section class="lower-promo-section">
+            <div class="promo-container">
+                <img src="images/rafting7.jpg"
+                  alt="Beautiful sweeping valley and mountain range landscape" class="promo-bg">
+                <div class="overlay-card">
+                    <h2>More Than Just The Thrill</h2>
+                    <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high
+                        peaks, it's
+                        way more than just the rapids. It's a great way to get away from it all and
+                        relax
+                        amongst all the beauty of the great outdoors.</p>
+
+                    <!-- Integrated newsletter sign up inside the layout structure -->
+                    <form action="#" method="post" class="promo-form">
+                        <input type="text" placeholder="Full Name" required aria-label="Full Name">
+                        <input type="email" placeholder="Email Address" required
+                          aria-label="Email Address">
+                        <button type="submit" class="join-btn">Join Us</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
     </main>
 
     <footer>

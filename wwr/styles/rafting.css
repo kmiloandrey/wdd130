@@ -362,3 +362,342 @@ footer p {
     justify-content: space-around;
     gap: 20px;
 }
+
+/* home page edit */
+
+.home-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.home-msg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Layout using Grid */
+    display: grid;
+    grid-template-rows: 1fr auto auto 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.home-msg h1 {
+    grid-row: 1;
+    align-self: center;
+    color: var(--accent2-color);
+    opacity: .7;
+    font-size: 2.3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+}
+
+.home-msg p {
+    grid-row: 2;
+    width: 98%;
+    background-color: var(--accent1-color);
+    opacity: .7;
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 13px 0;
+    font-size: 1.2rem;
+    position: relative;
+    top: 100px;
+
+}
+
+.home-btn {
+    grid-row: 3;
+    background-color: var(--accent1-color);
+    opacity: .8;
+    color: var(--accent2-color);
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    position: relative;
+    top: 100px;
+}
+
+.home-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+
+.activity-card {
+    text-align: center;
+}
+
+.frame-container {
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+    background-color: var(--accent2-color);
+    box-shadow: 0 4px 10px var(--accent1-color);
+}
+
+.frame-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.icon-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-box img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.activity-card h3 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: var(--accent1-color);
+    font-weight: normal;
+}
+
+/*  */
+
+.lower-promo-section {
+    background-color: #e3d5ca;
+    /* Tan layout tone blocks matched from picture */
+    padding: 60px 40px;
+}
+
+.promo-container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.promo-bg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay-card {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: var(--accent1-color);
+    opacity: 0.8;
+    color: var(--accent2-color);
+    padding: 30px;
+    max-width: 480px;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+
+.overlay-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.overlay-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--accent2-color);
+}
+
+.promo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.promo-form input {
+    padding: 8px;
+    border: 1px solid var(--accent2-color);
+    border-radius: 2px;
+    font-size: 0.9rem;
+}
+
+.join-btn {
+    background-color: var(--accent1-color);
+    border: 1px solid var(--accent2-color);
+    color: var(--accent2-color);
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    align-self: center;
+}
+
+.join-btn:hover {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+}
+
+/* trips adjustments */
+
+.trips-intro {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto 40px auto;
+    padding: 0 20px;
+}
+
+.trips-intro h1 {
+    color: var(--accent1-color);
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+    padding: 0 20px;
+}
+
+.trip-card {
+    background-color: var(--accent2-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    box-shadow: 0 4px 12px var(--accent1-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.trip-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.trip-details {
+    padding: 15px 5px 5px 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-details h2 {
+    color: var(--accent2-color);
+    opacity: .9;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.trip-goal {
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+    margin-bottom: .9px;
+    border-bottom: 1.5px dashed var(--primary-color);
+    padding-bottom: 25px;
+}
+
+.trip-info p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.table-selection {
+    margin: auto;
+}
+
+.table-selection h2 {
+    color: var(--accent2-color);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.table-trips {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--accent2-color);
+    box-shadow: 0 3px 6px var(--accent1-color)
+}
+
+.table-trips th,
+.table-trips td {
+    padding: 14px 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.table-trips th {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.contact-end {
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-content {
+    max-width: auto;
+}
+
+.contact-content h2 {
+    color: var(--accent2-color);
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    color: var(--accent1-color);
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    opacity: .9;
+    color: var(--accent2-color);
+    border: 1px solid var(--primary-color);
+    padding: 12px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
