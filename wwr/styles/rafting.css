@@ -7,7 +7,7 @@
     /* dark slate blue */
     --accent2-color: white;
     /* light golden yellow */
-    --heading-font: "Times New Roman", "Georgia", serif;
+    --heading-font: Times, Georgia, serif;
     --body-font: arial, helvetica, sans-serif;
 }
 
