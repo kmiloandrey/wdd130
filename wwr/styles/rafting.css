@@ -24,7 +24,7 @@ header {
     background-color: var(--accent2-color);
     padding: 15px 120px;
     /* Fixed spacing typo '15 px' */
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 .logo {
@@ -667,10 +667,6 @@ footer p {
     padding: 50px 20px;
     text-align: center;
     margin-top: 10px;
-}
-
-.contact-content {
-    max-width: auto;
 }
 
 .contact-content h2 {
